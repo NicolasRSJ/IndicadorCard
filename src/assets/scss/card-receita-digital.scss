@@ -1,0 +1,44 @@
+@import "./default-theme-overlay.scss";
+
+.cardReceitaDigital {
+  background-color: $midnight-blue;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px 0 $transparent-black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.column {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.row {
+  background-color: $transparent-silver;
+  border-radius: 20px 0px 0px 20px;
+  padding: 10px 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 295px;
+  height: 52px;
+}
+.receitaDigital {
+  color: $white;
+  @include roboto-36-regular;
+}
+.rowTwo {
+  background-color: $cornflower-blue;
+  border-radius: 0px 20px 20px 0px;
+  padding: 11px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+
+}
+.image2 {
+  width: 54px;
+  height: 49px;
+}
