@@ -12,6 +12,8 @@ import TotalIncomeLightCard from './TotalIncomeLightCard';
 // import TotalGrowthBarChart from './TotalGrowthBarChart';
 import { gridSpacing } from './../../../store/constant';
 
+import ReceitaDigital from '../../../views/dashboard/default/components/ReceitaDigital'
+
 //-----------------------|| DEFAULT DASHBOARD ||-----------------------//
 
 const Dashboard = () => {
@@ -26,6 +28,9 @@ const Dashboard = () => {
                 <Grid container spacing={gridSpacing}>
                     <Grid item lg={4} md={6} sm={6} xs={12}>
                         <EarningCard isLoading={isLoading} />
+                    </Grid>
+                    <Grid>
+                        <ReceitaDigital/>
                     </Grid>
                     <Grid item lg={4} md={6} sm={6} xs={12}>
                         {/* <TotalOrderLineChartCard isLoading={isLoading} /> */}
